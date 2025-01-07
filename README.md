@@ -18,3 +18,13 @@ Support Vector Machine (SVM) is a supervised machine learning algorithm used for
 
 > + The margin is the distance between the hyperplane and the nearest data points from either class.
 > + SVM maximizes this margin, aiming for better generalization.
+
+
+## How SVM Works
+
+### Linear SVM
+_If the data is linearly separable, SVM finds the hyperplane that separates the classes with the maximum margin._
+
+### Non-Linear SVM
+_When the data is not linearly separable, SVM uses kernel functions to map data into a higher-dimensional space where a linear hyperplane can separate them._
+
